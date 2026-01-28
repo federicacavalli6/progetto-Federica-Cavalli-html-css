@@ -1,0 +1,199 @@
+/* RESET BASE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100%;
+  font-family: 'Bebas Neue'; 
+  scroll-behavior: smooth;
+}
+
+/* HEADER & FOOTER */
+header {
+  display: flex;
+   justify-content: space-between; /* testo a sinistra, bottoni a destra */
+  align-items: center;    
+  background-color: #A916AC;
+  color: white;
+  padding: 15px;
+}
+header p{
+  font-size: 20px;
+}
+
+main {
+  width: 100%;
+}
+
+/* HERO / SEZIONE PRINCIPALE */
+.image-section {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+
+  background-image: url("img/SFONDO1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* CONTENUTO SOPRA LO SFONDO */
+.overlay {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  padding: 40px 30px;
+  color: white;
+  background: rgba(0, 0, 0, 0.35); /* overlay leggero */
+}
+
+/* NAV BUTTONS */
+.buttons {
+  display: flex;
+  gap: 30px;
+  margin-right: 50px;
+}
+
+.buttons button {
+  background: transparent;
+  color: white;
+  border: none;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #c124b4;
+  border-radius: 10px;
+}
+
+/* TESTO HERO */
+.text-box {
+  text-align: left;
+}
+.text-box h1 {
+  font-size: 100px;
+  margin-bottom: 10px;
+}
+.text-box h2 {
+  font-size: 70px;
+}
+.text-box h6 {
+  margin-top: 10px;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+/* BOTTONI HERO */
+.buttons2 {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.buttons2 button {
+  font-size: 20px;
+  background-color: #d608be;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 18px;
+  border-radius: 10px;
+ 
+  cursor: pointer;
+}
+
+/* CARD */
+.cards-container {
+  display: flex;
+  gap: 24px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 400px;
+  background: rgba(0, 0, 0, 0.7);
+  padding-bottom: 20px;
+}
+
+.card h3 {
+  padding: 16px;
+  font-size: 40px;
+  color: white;
+  text-align: left;
+}
+
+.card p {
+  padding: 0 16px;
+  font-size: 25px;
+  color: white;
+}
+
+.card button {
+  margin: 16px;
+  background: transparent;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.card button:hover {
+  color: #d608be;
+}
+
+/* NUMERO CARD */
+.number {
+  font-size: 35px;
+  margin-right: 5px;
+}
+
+/* IMMAGINE SECONDARIA */
+.img-down {
+  margin-top: 60px;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.img-down img {
+  display: block;
+  width: 100%;
+}
+
+/* TESTO SOPRA IMG SECONDARIA */
+.img-down h5 {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 6px 12px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.text-down-right{
+  text-align: right;
+}
+.text-down-right p{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif
+}
+/* FOOTER */
+ footer {
+  display: flex;
+  background-color: #A916AC;
+  color: white;
+  padding: 15px;
+}
+
+.footer-content {
+  text-align: left;
+  }
+.footer-content img {
+  width: 10%;
+  object-fit: cover;
+}

@@ -1,0 +1,202 @@
+.timeline {
+  width: 80%;
+  margin: 50px auto;
+}
+
+/* SINGOLO BLOCCO */
+.timeline-item {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+/* COLONNA SINISTRA */
+.timeline-left {
+  position: relative;
+  width: 150px;
+  text-align: right;
+  color: #999;
+}
+
+/* LINEA VERTICALE */
+.timeline-left::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 18px;
+  width: 2px;
+  height: 100%;
+  background-color: #e0e0e0;
+   
+}
+
+/* ANNO */
+.year {
+  font-size: 32px;
+  font-weight: bold;
+  color: #b000b5;
+  display: block;
+  margin-right: 30px;
+}
+
+/* PALLINO */
+.dot {
+  position: absolute;
+  top: 18px;
+  right: 10px;
+  width: 14px;
+  height: 14px;
+  background-color: #dcdcdc;
+  border-radius: 50%;
+}
+
+/* PAESE */
+.country {
+  position: absolute;
+  font-size: 34px;
+  letter-spacing: 1px;
+  top:0px;
+  display: block;
+  margin-left: 180px;
+
+}
+
+/* CONTENUTO DESTRO */
+.timeline-content {
+  flex: 1;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+/* TITOLO */
+.timeline-content h2 {
+  color: #b000b5;
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+
+/* PARTE ALTA (IMMAGINE + TESTO) */
+.content-top {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+/* IMMAGINE TONDA */
+.timeline-left img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  right: -65px;
+  position: absolute;
+}
+
+/* TESTO */
+.content-top p {
+  color: #666;
+   font-family: "Abel", sans-serif;
+  font-size: 20px;
+}
+
+/* IMMAGINI INFERIORI */
+.content-images {
+  display: flex;
+  gap: 20px;
+}
+
+.content-images img {
+  width: 50%;
+  max-width: 100%;
+  object-fit: cover;
+}
+.content-images2 img {
+  max-width: 100%;
+  object-fit: cover;
+}
+.arrow{
+     width: 80%;
+  margin: 50px auto;
+}
+.arrow h2{
+     color: #b000b5;
+  font-size: 52px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+.expansion-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+/* COLONNA IMMAGINE */
+.expansion-img {
+  flex-shrink: 0;
+}
+
+.expansion-img img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* COLONNA TESTO */
+.expansion-content {
+  max-width: 700px;
+}
+
+/* TITOLO */
+.expansion-content h3 {
+  font-size: 28px;
+  color: #9b9b9b;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+/* TESTO */
+.expansion-content p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 12px;
+  font-family: "Abel", sans-serif;
+
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+.cta-button {
+  background-color: #b000b5;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1.5em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 20px;
+}
+
+/* FOOTER */
+ footer {
+  display: flex;
+  background-color: #A916AC;
+  color: white;
+  padding: 15px;
+}
+
+.footer-content {
+  text-align: left;
+  }
+.footer-content img {
+  width: 10%;
+  object-fit: cover;
+}
